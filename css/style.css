@@ -8,11 +8,12 @@ RESET
     box-sizing: border-box;
 }
 
-li{
-    list-style: none;
-}
+/*
+MAIN
+*/
 
 body{
+    font-family: 'Lato', sans-serif;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -20,14 +21,30 @@ body{
 }
 
 .container{
-    width: 300px;
-    height: 500px;
-    background-color: pink;
+    width: 450px;
+    height: 650px;
+    background-color: #f0e68c;
     padding: 20px;
     border-radius: 15px;
+    box-shadow: 13px -12px 10px 0px rgba(0,0,0,0.98);
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container:hover{
+    cursor: pointer;
 }
 
 li{
     padding: 10px;
     font-size: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+li:hover{
+    font-size: 25px;
 }

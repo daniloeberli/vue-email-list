@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>Vue-email-list</title>
 </head>
 
@@ -14,6 +17,7 @@
 
     <div id="app">
         <div class="container">
+            <h1>EMAIL LIST</h1>
             <ul>
                 <li v-for="email in emails">
                     <p>{{email}}</p>
